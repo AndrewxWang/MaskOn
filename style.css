@@ -6,7 +6,7 @@ html {
 }
 
 .bg-image {
-    height: 100%;
+    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
