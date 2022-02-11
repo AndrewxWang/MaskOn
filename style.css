@@ -6,10 +6,10 @@ html {
 }
 
 .bg-image {
-    height: auto;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     background-attachment: fixed;
 }
 
