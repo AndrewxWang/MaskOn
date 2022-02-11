@@ -1,0 +1,134 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.bg-image {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img1 {
+    background-image: url("https://i.imgur.com/k8duuI5.png");
+    /*
+https://imgur.com/a/lr42u1Q
+*/
+}
+
+.img2 {
+    background-image: url("");
+}
+
+.img3 {
+    background-image: url("https://i.imgur.com/6e8hk1j.jpg");
+}
+
+
+/*
+https://imgur.com/a/BXfEhIg
+*/
+
+.img4 {
+    background-image: url("");
+}
+
+.img5 {
+    background-image: url("");
+}
+
+.img6 {
+    background-image: url("");
+}
+
+.img7 {
+    background-image: url("");
+}
+
+div.weblinks {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+a#links {
+    transition: all 0.8s;
+    text-decoration: none;
+    font-family: helvetica;
+    font-size: 90%;
+    word-spacing: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+a#links:hover {
+    filter: brightness(100%);
+    color: white;
+    font-size: 100%;
+    background-color: rgb(225, 225, 225, 0.3);
+}
+
+div.title {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    top: 40%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    font-family: Arial Black;
+    color: white;
+    opacity: 0.7;
+    filter: brightness(100%);
+}
+
+div.text {
+    position: absolute;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-family: helvetica;
+    font-weight: bold;
+}
+
+img#logo {
+    transition: all 0.5s;
+    width: 5%;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+img#logo:hover {
+    transform: scale(1.2);
+    filter: brightness(80%);
+}
+
+img#top-button {
+    transition: all 0.3s;
+    width: 3%;
+    position: fixed;
+    bottom: 1%;
+    right: 0.5%;
+}
+
+img#top-button:hover {
+    transform: scale(1.1);
+}
+
+h1#china {
+    animation: 0.5s slidein;
+}
+
+@keyframes slidein {
+    0% {
+        transform: translateY(-120%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
