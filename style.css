@@ -14,10 +14,7 @@ html {
 }
 
 .img1 {
-    background-image: url("https://i.imgur.com/k8duuI5.png");
-    /*
-https://imgur.com/a/lr42u1Q
-*/
+    background-image: url("images/background/img1.png");
 }
 
 .img2 {
@@ -25,20 +22,15 @@ https://imgur.com/a/lr42u1Q
 }
 
 .img3 {
-    background-image: url("https://i.imgur.com/6e8hk1j.jpg");
+    background-image: url("images/background/img2.gif");
 }
-
-
-/*
-https://imgur.com/a/BXfEhIg
-*/
 
 .img4 {
     background-image: url("");
 }
 
 .img5 {
-    background-image: url("");
+    background-image: url("images/background/img3.png");
 }
 
 .img6 {
@@ -49,7 +41,7 @@ https://imgur.com/a/BXfEhIg
     background-image: url("");
 }
 
-div.weblinks {
+*/ div.weblinks {
     position: absolute;
     right: 5%;
     top: 5%;
@@ -60,7 +52,6 @@ a#links {
     text-decoration: none;
     font-family: helvetica;
     font-size: 90%;
-    word-spacing: 20px;
     font-weight: bold;
     color: white;
     padding: 10px 10px 10px 10px;
@@ -89,11 +80,18 @@ div.title {
 }
 
 div.text {
-    position: absolute;
-    margin-right: 20%;
-    margin-left: 20%;
-    font-family: helvetica;
+    line-height: 255%;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    font-size: 125%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 10%;
+    position: absolute;
+}
+
+div.text h1 {
+    font-size: 300%;
 }
 
 img#logo {
@@ -120,7 +118,7 @@ img#top-button:hover {
     transform: scale(1.1);
 }
 
-h1#china {
+h1#logo {
     animation: 0.5s slidein;
 }
 
