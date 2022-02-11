@@ -13,38 +13,37 @@ html {
     background-attachment: fixed;
 }
 
+.empty {
+    background-image: url("");
+}
+
 .img1 {
     background-image: url("images/background/img1.png");
 }
 
 .img2 {
-    background-image: url("");
-}
-
-.img3 {
     background-image: url("images/background/img2.gif");
 }
 
-.img4 {
-    background-image: url("");
-}
-
-.img5 {
+.img3 {
     background-image: url("images/background/img3.png");
 }
 
-.img6 {
-    background-image: url("");
+.img4 {
+    background-image: url("images/background/img4.png");
 }
 
-.img7 {
-    background-image: url("");
+.img5 {
+    background-image: url("images/background/img5.png");
 }
 
 div.weblinks {
-    position: absolute;
+    background-color: black;
+    position: fixed;
+    padding: 1% 1% 1% 1%;
     right: 5%;
     top: 5%;
+    z-index: 100;
 }
 
 a#links {
@@ -60,7 +59,6 @@ a#links {
 a#links:hover {
     filter: brightness(100%);
     color: white;
-    font-size: 100%;
     background-color: rgb(225, 225, 225, 0.3);
 }
 
@@ -108,11 +106,20 @@ img#logo:hover {
 
 img#top-button {
     transition: all 0.3s;
-    width: 3%;
+    width: 5%;
     position: fixed;
     bottom: 1%;
     right: 0.5%;
 }
+
+.hide {
+    opacity: 0;
+    right: -100%;
+  }
+  .show {
+    opacity: 1;
+    right: 0.5%;
+  }
 
 img#top-button:hover {
     transform: scale(1.1);
