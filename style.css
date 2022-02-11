@@ -73,10 +73,18 @@ div.title {
     transform: translate(-50%, -50%);
     font-family: Arial Black;
     color: white;
-    opacity: 0.7;
+    opacity: 0.9;
     filter: brightness(100%);
 }
 
+div.title h1 {
+    animation: 0.5s slidein;
+}
+
+div.title img {
+    animation: 0.5s spin;
+    width:75%;
+}
 div.text {
     line-height: 255%;
     font-family: 'Montserrat', sans-serif;
@@ -116,24 +124,33 @@ img#top-button {
     opacity: 0;
     right: -100%;
   }
-  .show {
-    opacity: 1;
-    right: 0.5%;
-  }
+.show {
+opacity: 1;
+right: 0.5%;
+}
 
 img#top-button:hover {
     transform: scale(1.1);
 }
 
-h1#logo {
-    animation: 0.5s slidein;
-}
-
 @keyframes slidein {
     0% {
+        opacity: 0;
         transform: translateY(-120%);
     }
     100% {
+        opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@keyframes spin {
+    0% {
+        opacity: 0;
+        transform: translateY(120%) rotate(90deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) rotate(0deg);
     }
 }
