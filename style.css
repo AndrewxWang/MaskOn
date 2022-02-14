@@ -46,6 +46,10 @@ div.weblinks {
     z-index: 100;
 }
 
+div.weblinks:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 a#links {
     transition: all 0.8s;
     text-decoration: none;
