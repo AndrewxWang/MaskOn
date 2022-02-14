@@ -7,11 +7,10 @@ html {
 
 .bg-image {
     min-height: 100%; 
-/*     background-position: center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
-    background-attachment: fixed; */
-    overflow: scroll;
+    background-attachment: fixed;
 }
 
 .empty {
@@ -98,6 +97,7 @@ div.text {
     margin-right: 25%;
     margin-left: 25%;
     position: absolute;
+    overflow: scroll;
 }
 
 div.text h1 {
