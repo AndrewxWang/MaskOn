@@ -6,12 +6,13 @@ html {
 }
 
 .bg-image {
-    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: inline-block;
+    font-size: 100%;
+    min-height: 100%;
 }
 
 .empty {
