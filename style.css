@@ -97,7 +97,7 @@ div.text {
     font-size: 100%;
     margin-right: 25%;
     margin-left: 25%;
-    max-height: 1920px;
+    max-height: 80%;
     position: absolute;
     overflow: scroll;
 }
