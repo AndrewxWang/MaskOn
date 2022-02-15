@@ -155,7 +155,7 @@ img#top-button:hover {
 }
 
 div.footer {
-    height: 20%;
+    height: 30%;
     margin: 0;
     background-color: #303030;
     padding: 5%;
@@ -175,7 +175,7 @@ div.footer a {
 }
 
 div.footer a:hover {
-    color: lightgray;
+    text-decoration: underline;
 }
 
 @keyframes slidein {
