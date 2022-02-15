@@ -40,11 +40,12 @@ html {
 div.weblinks {
     animation: 0.5s slidein;
     background-color: black;
+    border-radius: 25vh;
     position: fixed;
-    padding: 2vh;
-    right: 3%;
+    padding: 1%;
+    right: 2vh;
     transition: all 0.6s;
-    top: 3%;
+    top: 2vh;
     z-index: 100;
 }
 
@@ -95,26 +96,40 @@ div.title img {
 div.text {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 2vh;
+    font-size: 2.25vh;
     line-height: 255%;
-    margin-right: 25%;
-    margin-left: 25%;
+    margin-right: 20%;
+    margin-left: 20%;
     max-height: 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
+    padding-left: 2%;
+    padding-right: 2%;
     position: absolute;
     scrollbar-width: none;
+}
+
+div.text::-webkit-scrollbar {
+    width: 1vh;
+}
+
+div.text::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+div.text::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+div.text::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 div.text h1 {
     font-size: 6vh;
 }
 
-div.text::-webkit-scrollbar {
-    display: none;
-}
-
 img#logo {
-    width: 5%;
+    width: 6%;
 }
 
 img#top-button {
@@ -145,18 +160,23 @@ div.footer {
     background-color: #303030;
     padding: 5%;
     bottom: 0;
-  }
-  div.footer h3{
+}
+
+div.footer h3 {
     color: white;
-    font-size: 1.5vh;
-  }
-  
-  div.footer a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+}
+
+div.footer a {
     transition: all 1s;
     text-decoration: none;
     color: white;
-  }
-  div.footer a:hover {color: lightgray;}
+}
+
+div.footer a:hover {
+    color: lightgray;
+}
 
 @keyframes slidein {
     0% {
