@@ -1,10 +1,12 @@
-myID = document.getElementById("top-button");
+//code for the button to go back to home page on bottom right
+
+topBtn = document.getElementById("top-button");
 var scrollFunc = function() {
   var y = window.scrollY;
   if (y >= 400) {
-    myID.className = "top-button show"
+    topBtn.className = "top-button show"
   } else {
-    myID.className = "top-button hide"
+    topBtn.className = "top-button hide"
   }
 };
 
