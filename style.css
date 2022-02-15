@@ -139,9 +139,11 @@ img#top-button:hover {
 }
 
 div.footer {
-    height: 10%;
+    height: 20%;
+    margin: 0;
     background-color: #303030;
     padding: 5%;
+    bottom: 0;
   }
   div.footer h3{
     color: white;
