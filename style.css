@@ -6,10 +6,10 @@ html {
 }
 
 .bg-image {
-    min-height: 100%; 
+    min-height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -88,8 +88,9 @@ div.title h1 {
 
 div.title img {
     animation: 0.5s spin;
-    width:75%;
+    width: 75%;
 }
+
 div.text {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -112,15 +113,7 @@ div.text::-webkit-scrollbar {
 }
 
 img#logo {
-    transition: all 0.5s;
     width: 5%;
-    margin-left: 4%;
-    margin-top: 1%;
-}
-
-img#logo:hover {
-    transform: scale(1.2);
-    filter: brightness(80%);
 }
 
 img#top-button {
@@ -134,21 +127,40 @@ img#top-button {
 .hide {
     opacity: 0;
     right: -100%;
-  }
+}
+
 .show {
-opacity: 1;
-right: 0.5%;
+    opacity: 1;
+    right: 0.5%;
 }
 
 img#top-button:hover {
     transform: scale(1.1);
 }
 
+div.footer {
+    height: 10%;
+    background-color: #303030;
+    padding: 5%;
+  }
+  div.footer h3{
+    color: white;
+    font-size: 15px;
+  }
+  
+  div.footer a {
+    transition: all 1s;
+    text-decoration: none;
+    color: white;
+  }
+  div.footer a:hover {color: lightgray;}
+
 @keyframes slidein {
     0% {
         opacity: 0;
         transform: translateY(-120%);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0);
@@ -160,6 +172,7 @@ img#top-button:hover {
         opacity: 0;
         transform: translateY(120%) rotate(90deg);
     }
+
     100% {
         opacity: 1;
         transform: translateY(0) rotate(0deg);
