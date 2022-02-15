@@ -38,9 +38,10 @@ html {
 }
 
 div.weblinks {
+    animation: 0.5s slidein;
     background-color: black;
     position: fixed;
-    padding: 1% 1% 1% 1%;
+    padding: 2vh;
     right: 3%;
     transition: all 0.6s;
     top: 3%;
@@ -55,7 +56,7 @@ a#links {
     transition: all 0.8s;
     text-decoration: none;
     font-family: helvetica;
-    font-size: 90%;
+    font-size: 1.5vh;
     font-weight: bold;
     color: white;
     padding: 10px 10px 10px 10px;
@@ -71,7 +72,7 @@ div.title {
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    font-size: 40px;
+    font-size: 5vh;
     top: 40%;
     left: 50%;
     z-index: 2;
@@ -94,7 +95,7 @@ div.title img {
 div.text {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 100%;
+    font-size: 2vh;
     line-height: 255%;
     margin-right: 25%;
     margin-left: 25%;
@@ -105,7 +106,7 @@ div.text {
 }
 
 div.text h1 {
-    font-size: 300%;
+    font-size: 6vh;
 }
 
 div.text::-webkit-scrollbar {
@@ -147,7 +148,7 @@ div.footer {
   }
   div.footer h3{
     color: white;
-    font-size: 15px;
+    font-size: 1.5vh;
   }
   
   div.footer a {
